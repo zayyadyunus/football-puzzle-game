@@ -1,0 +1,11 @@
+# Pipeline data: regenerate with pipeline/README.md
+pipeline/data/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
