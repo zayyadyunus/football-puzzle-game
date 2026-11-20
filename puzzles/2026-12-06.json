@@ -1,0 +1,715 @@
+{
+ "date": "2026-12-06",
+ "difficulty": {
+  "label": "Hard",
+  "knowledge": 4000,
+  "solutions": {
+   "500": 0,
+   "1000": 0,
+   "2000": 1,
+   "4000": 3
+  }
+ },
+ "formation": {
+  "name": "3-4-3",
+  "slots": [
+   {
+    "id": "GK",
+    "label": "GK",
+    "x": 50,
+    "y": 6,
+    "accepts": [
+     "GK"
+    ]
+   },
+   {
+    "id": "LCB",
+    "label": "CB",
+    "x": 28,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "CB",
+    "label": "CB",
+    "x": 50,
+    "y": 20,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RCB",
+    "label": "CB",
+    "x": 72,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LM",
+    "label": "LM",
+    "x": 12,
+    "y": 50,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LCM",
+    "label": "CM",
+    "x": 37,
+    "y": 48,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RCM",
+    "label": "CM",
+    "x": 63,
+    "y": 48,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RM",
+    "label": "RM",
+    "x": 88,
+    "y": 50,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LW",
+    "label": "LW",
+    "x": 18,
+    "y": 78,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   },
+   {
+    "id": "ST",
+    "label": "ST",
+    "x": 50,
+    "y": 84,
+    "accepts": [
+     "FWD"
+    ]
+   },
+   {
+    "id": "RW",
+    "label": "RW",
+    "x": 82,
+    "y": 78,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   }
+  ],
+  "links": [
+   [
+    "GK",
+    "LCB"
+   ],
+   [
+    "GK",
+    "CB"
+   ],
+   [
+    "GK",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "CB"
+   ],
+   [
+    "CB",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "LM"
+   ],
+   [
+    "LCB",
+    "LCM"
+   ],
+   [
+    "CB",
+    "LCM"
+   ],
+   [
+    "CB",
+    "RCM"
+   ],
+   [
+    "RCB",
+    "RCM"
+   ],
+   [
+    "RCB",
+    "RM"
+   ],
+   [
+    "LM",
+    "LCM"
+   ],
+   [
+    "LCM",
+    "RCM"
+   ],
+   [
+    "RCM",
+    "RM"
+   ],
+   [
+    "LM",
+    "LW"
+   ],
+   [
+    "LCM",
+    "ST"
+   ],
+   [
+    "RCM",
+    "ST"
+   ],
+   [
+    "RM",
+    "RW"
+   ],
+   [
+    "LW",
+    "ST"
+   ],
+   [
+    "ST",
+    "RW"
+   ]
+  ]
+ },
+ "seeds": {
+  "GK": {
+   "id": "Q107365",
+   "name": "Manuel Neuer",
+   "nat": "Germany",
+   "pos": [
+    "GK"
+   ],
+   "born": 1986,
+   "career": [
+    2006,
+    2026
+   ]
+  },
+  "LCB": {
+   "id": "Q43682",
+   "name": "Philipp Lahm",
+   "nat": "Germany",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1983,
+   "career": [
+    2002,
+    2017
+   ]
+  },
+  "LW": {
+   "id": "Q295456",
+   "name": "Fernando Redondo",
+   "nat": "Argentina",
+   "pos": [
+    "MID"
+   ],
+   "born": 1969,
+   "career": [
+    1985,
+    2004
+   ]
+  },
+  "RCB": {
+   "id": "Q13865408",
+   "name": "Joshua Kimmich",
+   "nat": "Germany",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1995,
+   "career": [
+    2013,
+    2026
+   ]
+  },
+  "RM": {
+   "id": "Q110053",
+   "name": "Mats Hummels",
+   "nat": "Germany",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1988,
+   "career": [
+    2007,
+    2025
+   ]
+  },
+  "ST": {
+   "id": "Q160206",
+   "name": "Hernán Crespo",
+   "nat": "Argentina",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1975,
+   "career": [
+    1993,
+    2012
+   ]
+  }
+ },
+ "solution": {
+  "LW": {
+   "id": "Q295456",
+   "name": "Fernando Redondo",
+   "nat": "Argentina",
+   "pos": [
+    "MID"
+   ],
+   "born": 1969,
+   "career": [
+    1985,
+    2004
+   ]
+  },
+  "ST": {
+   "id": "Q160206",
+   "name": "Hernán Crespo",
+   "nat": "Argentina",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1975,
+   "career": [
+    1993,
+    2012
+   ]
+  },
+  "LM": {
+   "id": "Q57167",
+   "name": "Zé Roberto",
+   "nat": "Brazil",
+   "pos": [
+    "MID"
+   ],
+   "born": 1974,
+   "career": [
+    1994,
+    2017
+   ]
+  },
+  "LCM": {
+   "id": "Q314241",
+   "name": "José Sosa",
+   "nat": "Argentina",
+   "pos": [
+    "MID"
+   ],
+   "born": 1985,
+   "career": [
+    2002,
+    2026
+   ]
+  },
+  "LCB": {
+   "id": "Q43682",
+   "name": "Philipp Lahm",
+   "nat": "Germany",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1983,
+   "career": [
+    2002,
+    2017
+   ]
+  },
+  "CB": {
+   "id": "Q151278",
+   "name": "Holger Badstuber",
+   "nat": "Germany",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1989,
+   "career": [
+    2009,
+    2021
+   ]
+  },
+  "RCM": {
+   "id": "Q43913",
+   "name": "Arjen Robben",
+   "nat": "Netherlands",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1984,
+   "career": [
+    1989,
+    2021
+   ]
+  },
+  "GK": {
+   "id": "Q107365",
+   "name": "Manuel Neuer",
+   "nat": "Germany",
+   "pos": [
+    "GK"
+   ],
+   "born": 1986,
+   "career": [
+    2006,
+    2026
+   ]
+  },
+  "RCB": {
+   "id": "Q13865408",
+   "name": "Joshua Kimmich",
+   "nat": "Germany",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1995,
+   "career": [
+    2013,
+    2026
+   ]
+  },
+  "RM": {
+   "id": "Q110053",
+   "name": "Mats Hummels",
+   "nat": "Germany",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1988,
+   "career": [
+    2007,
+    2025
+   ]
+  },
+  "RW": {
+   "id": "Q12984",
+   "name": "Stephan El Shaarawy",
+   "nat": "Italy",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1992,
+   "career": [
+    2008,
+    2026
+   ]
+  }
+ },
+ "solution_links": [
+  {
+   "a": "GK",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "Germany men's national association football team",
+     "kind": "nat_senior",
+     "from": 2009,
+     "to": 2014
+    },
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2011,
+     "to": 2017
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "CB",
+   "via": [
+    {
+     "team": "Germany men's national association football team",
+     "kind": "nat_senior",
+     "from": 2010,
+     "to": 2015
+    },
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2011,
+     "to": 2017
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2015,
+     "to": 2026
+    },
+    {
+     "team": "Germany men's national association football team",
+     "kind": "nat_senior",
+     "from": 2016,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "CB",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2009,
+     "to": 2017
+    },
+    {
+     "team": "Germany men's national association football team",
+     "kind": "nat_senior",
+     "from": 2010,
+     "to": 2014
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2015,
+     "to": 2017
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LM",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2002,
+     "to": 2006
+    },
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2007,
+     "to": 2009
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2007,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2009,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2009,
+     "to": 2017
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2015,
+     "to": 2019
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RM",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2016,
+     "to": 2019
+    },
+    {
+     "team": "Germany men's national association football team",
+     "kind": "nat_senior",
+     "from": 2016,
+     "to": 2023
+    }
+   ]
+  },
+  {
+   "a": "LM",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2007,
+     "to": 2009
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2009,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RM",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2016,
+     "to": 2019
+    }
+   ]
+  },
+  {
+   "a": "LM",
+   "b": "LW",
+   "via": [
+    {
+     "team": "Real Madrid Club de Fútbol",
+     "kind": "club",
+     "from": 1997,
+     "to": 1998
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Argentina national football team",
+     "kind": "nat_senior",
+     "from": 2005,
+     "to": 2007
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Chelsea F.C.",
+     "kind": "club",
+     "from": 2004,
+     "to": 2007
+    }
+   ]
+  },
+  {
+   "a": "RM",
+   "b": "RW",
+   "via": [
+    {
+     "team": "AS Roma",
+     "kind": "club",
+     "from": 2024,
+     "to": 2025
+    }
+   ]
+  },
+  {
+   "a": "LW",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Argentina national football team",
+     "kind": "nat_senior",
+     "from": 1995,
+     "to": 1999
+    }
+   ]
+  },
+  {
+   "a": "ST",
+   "b": "RW",
+   "via": [
+    {
+     "team": "Genoa CFC",
+     "kind": "club",
+     "from": 2009,
+     "to": 2010
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "diversity": 7.9,
+  "generator": "v1",
+  "data_built": "2026-11-19"
+ }
+}

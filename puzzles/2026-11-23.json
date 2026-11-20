@@ -1,0 +1,678 @@
+{
+ "date": "2026-11-23",
+ "difficulty": {
+  "label": "Easy",
+  "knowledge": 500,
+  "solutions": {
+   "500": 1000,
+   "1000": 1000,
+   "2000": 1000,
+   "4000": 1000
+  }
+ },
+ "formation": {
+  "name": "3-4-3",
+  "slots": [
+   {
+    "id": "GK",
+    "label": "GK",
+    "x": 50,
+    "y": 6,
+    "accepts": [
+     "GK"
+    ]
+   },
+   {
+    "id": "LCB",
+    "label": "CB",
+    "x": 28,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "CB",
+    "label": "CB",
+    "x": 50,
+    "y": 20,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RCB",
+    "label": "CB",
+    "x": 72,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LM",
+    "label": "LM",
+    "x": 12,
+    "y": 50,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LCM",
+    "label": "CM",
+    "x": 37,
+    "y": 48,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RCM",
+    "label": "CM",
+    "x": 63,
+    "y": 48,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RM",
+    "label": "RM",
+    "x": 88,
+    "y": 50,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LW",
+    "label": "LW",
+    "x": 18,
+    "y": 78,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   },
+   {
+    "id": "ST",
+    "label": "ST",
+    "x": 50,
+    "y": 84,
+    "accepts": [
+     "FWD"
+    ]
+   },
+   {
+    "id": "RW",
+    "label": "RW",
+    "x": 82,
+    "y": 78,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   }
+  ],
+  "links": [
+   [
+    "GK",
+    "LCB"
+   ],
+   [
+    "GK",
+    "CB"
+   ],
+   [
+    "GK",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "CB"
+   ],
+   [
+    "CB",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "LM"
+   ],
+   [
+    "LCB",
+    "LCM"
+   ],
+   [
+    "CB",
+    "LCM"
+   ],
+   [
+    "CB",
+    "RCM"
+   ],
+   [
+    "RCB",
+    "RCM"
+   ],
+   [
+    "RCB",
+    "RM"
+   ],
+   [
+    "LM",
+    "LCM"
+   ],
+   [
+    "LCM",
+    "RCM"
+   ],
+   [
+    "RCM",
+    "RM"
+   ],
+   [
+    "LM",
+    "LW"
+   ],
+   [
+    "LCM",
+    "ST"
+   ],
+   [
+    "RCM",
+    "ST"
+   ],
+   [
+    "RM",
+    "RW"
+   ],
+   [
+    "LW",
+    "ST"
+   ],
+   [
+    "ST",
+    "RW"
+   ]
+  ]
+ },
+ "seeds": {
+  "CB": {
+   "id": "Q80712",
+   "name": "Michael Keane",
+   "nat": "England",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1993,
+   "career": [
+    2011,
+    2026
+   ]
+  },
+  "GK": {
+   "id": "Q13014035",
+   "name": "Jordan Pickford",
+   "nat": "England",
+   "pos": [
+    "GK"
+   ],
+   "born": 1994,
+   "career": [
+    2011,
+    2026
+   ]
+  },
+  "LCM": {
+   "id": "Q713711",
+   "name": "Wilfried Zaha",
+   "nat": "England",
+   "pos": [
+    "MID"
+   ],
+   "born": 1992,
+   "career": [
+    2010,
+    2026
+   ]
+  },
+  "RCB": {
+   "id": "Q10602",
+   "name": "Ashley Young",
+   "nat": "England",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1985,
+   "career": [
+    2003,
+    2026
+   ]
+  }
+ },
+ "solution": {
+  "LCM": {
+   "id": "Q713711",
+   "name": "Wilfried Zaha",
+   "nat": "England",
+   "pos": [
+    "MID"
+   ],
+   "born": 1992,
+   "career": [
+    2010,
+    2026
+   ]
+  },
+  "LCB": {
+   "id": "Q18614641",
+   "name": "Ainsley Maitland-Niles",
+   "nat": "England",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1997,
+   "career": [
+    2014,
+    2026
+   ]
+  },
+  "CB": {
+   "id": "Q80712",
+   "name": "Michael Keane",
+   "nat": "England",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1993,
+   "career": [
+    2011,
+    2026
+   ]
+  },
+  "GK": {
+   "id": "Q13014035",
+   "name": "Jordan Pickford",
+   "nat": "England",
+   "pos": [
+    "GK"
+   ],
+   "born": 1994,
+   "career": [
+    2011,
+    2026
+   ]
+  },
+  "LM": {
+   "id": "Q20641306",
+   "name": "Nicolas Pépé",
+   "nat": "Ivory Coast",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1995,
+   "career": [
+    2012,
+    2026
+   ]
+  },
+  "RCM": {
+   "id": "Q174486",
+   "name": "Antonio Valencia",
+   "nat": "Ecuador",
+   "pos": [
+    "MID"
+   ],
+   "born": 1985,
+   "career": [
+    2003,
+    2021
+   ]
+  },
+  "RCB": {
+   "id": "Q10602",
+   "name": "Ashley Young",
+   "nat": "England",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1985,
+   "career": [
+    2003,
+    2026
+   ]
+  },
+  "ST": {
+   "id": "Q188457",
+   "name": "Danny Welbeck",
+   "nat": "England",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1990,
+   "career": [
+    2008,
+    2026
+   ]
+  },
+  "LW": {
+   "id": "Q22683033",
+   "name": "Yves Bissouma",
+   "nat": "Mali",
+   "pos": [
+    "MID"
+   ],
+   "born": 1996,
+   "career": [
+    2015,
+    2026
+   ]
+  },
+  "RM": {
+   "id": "Q24961840",
+   "name": "Tahith Chong",
+   "nat": "Curaçao",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1999,
+   "career": [
+    2018,
+    2026
+   ]
+  },
+  "RW": {
+   "id": "Q59064",
+   "name": "Andros Townsend",
+   "nat": "England",
+   "pos": [
+    "MID"
+   ],
+   "born": 1991,
+   "career": [
+    2009,
+    2026
+   ]
+  }
+ },
+ "solution_links": [
+  {
+   "a": "GK",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "Everton F.C.",
+     "kind": "club",
+     "from": 2026,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "CB",
+   "via": [
+    {
+     "team": "Everton F.C.",
+     "kind": "club",
+     "from": 2017,
+     "to": 2026
+    },
+    {
+     "team": "England men's national association football team",
+     "kind": "nat_senior",
+     "from": 2017,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "England men's national association football team",
+     "kind": "nat_senior",
+     "from": 2017,
+     "to": 2018
+    },
+    {
+     "team": "Everton F.C.",
+     "kind": "club",
+     "from": 2023,
+     "to": 2025
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "CB",
+   "via": [
+    {
+     "team": "Everton F.C.",
+     "kind": "club",
+     "from": 2026,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "Manchester United F.C.",
+     "kind": "club",
+     "from": 2011,
+     "to": 2015
+    },
+    {
+     "team": "England men's national association football team",
+     "kind": "nat_senior",
+     "from": 2017,
+     "to": 2018
+    },
+    {
+     "team": "Everton F.C.",
+     "kind": "club",
+     "from": 2023,
+     "to": 2025
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LM",
+   "via": [
+    {
+     "team": "Arsenal F.C.",
+     "kind": "club",
+     "from": 2019,
+     "to": 2023
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "Olympique Lyonnais",
+     "kind": "club",
+     "from": 2024,
+     "to": 2025
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "Manchester United F.C.",
+     "kind": "club",
+     "from": 2013,
+     "to": 2015
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Manchester United F.C.",
+     "kind": "club",
+     "from": 2011,
+     "to": 2015
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Manchester United F.C.",
+     "kind": "club",
+     "from": 2011,
+     "to": 2019
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RM",
+   "via": [
+    {
+     "team": "Manchester United F.C.",
+     "kind": "club",
+     "from": 2018,
+     "to": 2020
+    }
+   ]
+  },
+  {
+   "a": "LM",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "Ivory Coast men's national football team",
+     "kind": "nat_senior",
+     "from": 2017,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Manchester United F.C.",
+     "kind": "club",
+     "from": 2013,
+     "to": 2015
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RM",
+   "via": [
+    {
+     "team": "Manchester United F.C.",
+     "kind": "club",
+     "from": 2018,
+     "to": 2019
+    }
+   ]
+  },
+  {
+   "a": "LM",
+   "b": "LW",
+   "via": [
+    {
+     "team": "Lille OSC",
+     "kind": "club",
+     "from": 2017,
+     "to": 2018
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Manchester United F.C.",
+     "kind": "club",
+     "from": 2013,
+     "to": 2014
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Manchester United F.C.",
+     "kind": "club",
+     "from": 2009,
+     "to": 2014
+    }
+   ]
+  },
+  {
+   "a": "RM",
+   "b": "RW",
+   "via": [
+    {
+     "team": "Luton Town F.C.",
+     "kind": "club",
+     "from": 2023,
+     "to": 2024
+    }
+   ]
+  },
+  {
+   "a": "LW",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Brighton & Hove Albion F.C.",
+     "kind": "club",
+     "from": 2020,
+     "to": 2022
+    }
+   ]
+  },
+  {
+   "a": "ST",
+   "b": "RW",
+   "via": [
+    {
+     "team": "England men's national association football team",
+     "kind": "nat_senior",
+     "from": 2013,
+     "to": 2018
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "diversity": 10.1,
+  "generator": "v1",
+  "data_built": "2026-11-19"
+ }
+}

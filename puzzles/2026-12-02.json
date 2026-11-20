@@ -1,0 +1,668 @@
+{
+ "date": "2026-12-02",
+ "difficulty": {
+  "label": "Medium",
+  "knowledge": 1000,
+  "solutions": {
+   "500": 0,
+   "1000": 1000,
+   "2000": 1000,
+   "4000": 1000
+  }
+ },
+ "formation": {
+  "name": "3-4-3",
+  "slots": [
+   {
+    "id": "GK",
+    "label": "GK",
+    "x": 50,
+    "y": 6,
+    "accepts": [
+     "GK"
+    ]
+   },
+   {
+    "id": "LCB",
+    "label": "CB",
+    "x": 28,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "CB",
+    "label": "CB",
+    "x": 50,
+    "y": 20,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RCB",
+    "label": "CB",
+    "x": 72,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LM",
+    "label": "LM",
+    "x": 12,
+    "y": 50,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LCM",
+    "label": "CM",
+    "x": 37,
+    "y": 48,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RCM",
+    "label": "CM",
+    "x": 63,
+    "y": 48,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RM",
+    "label": "RM",
+    "x": 88,
+    "y": 50,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LW",
+    "label": "LW",
+    "x": 18,
+    "y": 78,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   },
+   {
+    "id": "ST",
+    "label": "ST",
+    "x": 50,
+    "y": 84,
+    "accepts": [
+     "FWD"
+    ]
+   },
+   {
+    "id": "RW",
+    "label": "RW",
+    "x": 82,
+    "y": 78,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   }
+  ],
+  "links": [
+   [
+    "GK",
+    "LCB"
+   ],
+   [
+    "GK",
+    "CB"
+   ],
+   [
+    "GK",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "CB"
+   ],
+   [
+    "CB",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "LM"
+   ],
+   [
+    "LCB",
+    "LCM"
+   ],
+   [
+    "CB",
+    "LCM"
+   ],
+   [
+    "CB",
+    "RCM"
+   ],
+   [
+    "RCB",
+    "RCM"
+   ],
+   [
+    "RCB",
+    "RM"
+   ],
+   [
+    "LM",
+    "LCM"
+   ],
+   [
+    "LCM",
+    "RCM"
+   ],
+   [
+    "RCM",
+    "RM"
+   ],
+   [
+    "LM",
+    "LW"
+   ],
+   [
+    "LCM",
+    "ST"
+   ],
+   [
+    "RCM",
+    "ST"
+   ],
+   [
+    "RM",
+    "RW"
+   ],
+   [
+    "LW",
+    "ST"
+   ],
+   [
+    "ST",
+    "RW"
+   ]
+  ]
+ },
+ "seeds": {
+  "CB": {
+   "id": "Q206677",
+   "name": "Wayne Bridge",
+   "nat": "England",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1980,
+   "career": [
+    1998,
+    2014
+   ]
+  },
+  "LCM": {
+   "id": "Q113916",
+   "name": "Stephen Ireland",
+   "nat": "Republic of Ireland",
+   "pos": [
+    "MID"
+   ],
+   "born": 1986,
+   "career": [
+    2005,
+    2018
+   ]
+  },
+  "RCM": {
+   "id": "Q58441",
+   "name": "Robinho",
+   "nat": "Brazil",
+   "pos": [
+    "MID"
+   ],
+   "born": 1984,
+   "career": [
+    2002,
+    2020
+   ]
+  },
+  "RW": {
+   "id": "Q168497",
+   "name": "Daniele De Rossi",
+   "nat": "Italy",
+   "pos": [
+    "MID"
+   ],
+   "born": 1983,
+   "career": [
+    2001,
+    2020
+   ]
+  },
+  "ST": {
+   "id": "Q50600",
+   "name": "Carlos Tevez",
+   "nat": "Argentina",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1984,
+   "career": [
+    2001,
+    2021
+   ]
+  }
+ },
+ "solution": {
+  "RW": {
+   "id": "Q168497",
+   "name": "Daniele De Rossi",
+   "nat": "Italy",
+   "pos": [
+    "MID"
+   ],
+   "born": 1983,
+   "career": [
+    2001,
+    2020
+   ]
+  },
+  "ST": {
+   "id": "Q50600",
+   "name": "Carlos Tevez",
+   "nat": "Argentina",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1984,
+   "career": [
+    2001,
+    2021
+   ]
+  },
+  "LCM": {
+   "id": "Q113916",
+   "name": "Stephen Ireland",
+   "nat": "Republic of Ireland",
+   "pos": [
+    "MID"
+   ],
+   "born": 1986,
+   "career": [
+    2005,
+    2018
+   ]
+  },
+  "RCM": {
+   "id": "Q58441",
+   "name": "Robinho",
+   "nat": "Brazil",
+   "pos": [
+    "MID"
+   ],
+   "born": 1984,
+   "career": [
+    2002,
+    2020
+   ]
+  },
+  "CB": {
+   "id": "Q206677",
+   "name": "Wayne Bridge",
+   "nat": "England",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1980,
+   "career": [
+    1998,
+    2014
+   ]
+  },
+  "GK": {
+   "id": "Q207806",
+   "name": "Carlo Cudicini",
+   "nat": "Italy",
+   "pos": [
+    "GK"
+   ],
+   "born": 1973,
+   "career": [
+    1992,
+    2013
+   ]
+  },
+  "LCB": {
+   "id": "Q155461",
+   "name": "Robert Huth",
+   "nat": "Germany",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1984,
+   "career": [
+    2002,
+    2015
+   ]
+  },
+  "RCB": {
+   "id": "Q296635",
+   "name": "Jonathan Woodgate",
+   "nat": "England",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1980,
+   "career": [
+    1998,
+    2016
+   ]
+  },
+  "RM": {
+   "id": "Q102027",
+   "name": "Fabio Cannavaro",
+   "nat": "Italy",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1973,
+   "career": [
+    1992,
+    2011
+   ]
+  },
+  "LM": {
+   "id": "Q155903",
+   "name": "Dietmar Hamann",
+   "nat": "Germany",
+   "pos": [
+    "MID"
+   ],
+   "born": 1973,
+   "career": [
+    1993,
+    2011
+   ]
+  },
+  "LW": {
+   "id": "Q206644",
+   "name": "Martin Petrov",
+   "nat": "Bulgaria",
+   "pos": [
+    "MID"
+   ],
+   "born": 1979,
+   "career": [
+    1995,
+    2014
+   ]
+  }
+ },
+ "solution_links": [
+  {
+   "a": "GK",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "Chelsea F.C.",
+     "kind": "club",
+     "from": 2002,
+     "to": 2006
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "CB",
+   "via": [
+    {
+     "team": "Chelsea F.C.",
+     "kind": "club",
+     "from": 2003,
+     "to": 2009
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "Tottenham Hotspur F.C.",
+     "kind": "club",
+     "from": 2009,
+     "to": 2011
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "CB",
+   "via": [
+    {
+     "team": "Chelsea F.C.",
+     "kind": "club",
+     "from": 2003,
+     "to": 2006
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "England men's national association football team",
+     "kind": "nat_senior",
+     "from": 2002,
+     "to": 2008
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LM",
+   "via": [
+    {
+     "team": "Germany men's national association football team",
+     "kind": "nat_senior",
+     "from": 2004,
+     "to": 2005
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "Stoke City F.C.",
+     "kind": "club",
+     "from": 2013,
+     "to": 2014
+    },
+    {
+     "team": "Stoke City F.C.",
+     "kind": "club",
+     "from": 2014,
+     "to": 2015
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2009,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2009,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Real Madrid Club de Fútbol",
+     "kind": "club",
+     "from": 2005,
+     "to": 2007
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RM",
+   "via": [
+    {
+     "team": "Real Madrid Club de Fútbol",
+     "kind": "club",
+     "from": 2006,
+     "to": 2007
+    }
+   ]
+  },
+  {
+   "a": "LM",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2006,
+     "to": 2009
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2008,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RM",
+   "via": [
+    {
+     "team": "Real Madrid Club de Fútbol",
+     "kind": "club",
+     "from": 2006,
+     "to": 2008
+    }
+   ]
+  },
+  {
+   "a": "LM",
+   "b": "LW",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2007,
+     "to": 2009
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2009,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2009,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "RM",
+   "b": "RW",
+   "via": [
+    {
+     "team": "Italy men's national association football team",
+     "kind": "nat_senior",
+     "from": 2004,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "LW",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2009,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "ST",
+   "b": "RW",
+   "via": [
+    {
+     "team": "Boca Juniors",
+     "kind": "club",
+     "from": 2019,
+     "to": 2020
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "diversity": 10.2,
+  "generator": "v1",
+  "data_built": "2026-11-19"
+ }
+}

@@ -1,0 +1,629 @@
+{
+ "date": "2026-11-25",
+ "difficulty": {
+  "label": "Medium",
+  "knowledge": 1000,
+  "solutions": {
+   "500": 0,
+   "1000": 14,
+   "2000": 122,
+   "4000": 1000
+  }
+ },
+ "formation": {
+  "name": "4-3-3",
+  "slots": [
+   {
+    "id": "GK",
+    "label": "GK",
+    "x": 50,
+    "y": 6,
+    "accepts": [
+     "GK"
+    ]
+   },
+   {
+    "id": "LB",
+    "label": "LB",
+    "x": 12,
+    "y": 26,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LCB",
+    "label": "CB",
+    "x": 37,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RCB",
+    "label": "CB",
+    "x": 63,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RB",
+    "label": "RB",
+    "x": 88,
+    "y": 26,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LCM",
+    "label": "CM",
+    "x": 28,
+    "y": 50,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "CM",
+    "label": "CM",
+    "x": 50,
+    "y": 46,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RCM",
+    "label": "CM",
+    "x": 72,
+    "y": 50,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "LW",
+    "label": "LW",
+    "x": 15,
+    "y": 78,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   },
+   {
+    "id": "ST",
+    "label": "ST",
+    "x": 50,
+    "y": 84,
+    "accepts": [
+     "FWD"
+    ]
+   },
+   {
+    "id": "RW",
+    "label": "RW",
+    "x": 85,
+    "y": 78,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   }
+  ],
+  "links": [
+   [
+    "GK",
+    "LCB"
+   ],
+   [
+    "GK",
+    "RCB"
+   ],
+   [
+    "LB",
+    "LCB"
+   ],
+   [
+    "LCB",
+    "RCB"
+   ],
+   [
+    "RCB",
+    "RB"
+   ],
+   [
+    "LB",
+    "LCM"
+   ],
+   [
+    "LCB",
+    "CM"
+   ],
+   [
+    "RCB",
+    "CM"
+   ],
+   [
+    "RB",
+    "RCM"
+   ],
+   [
+    "LCM",
+    "CM"
+   ],
+   [
+    "CM",
+    "RCM"
+   ],
+   [
+    "LB",
+    "LW"
+   ],
+   [
+    "RB",
+    "RW"
+   ],
+   [
+    "LCM",
+    "LW"
+   ],
+   [
+    "CM",
+    "ST"
+   ],
+   [
+    "RCM",
+    "RW"
+   ],
+   [
+    "LW",
+    "ST"
+   ],
+   [
+    "ST",
+    "RW"
+   ]
+  ]
+ },
+ "seeds": {
+  "CM": {
+   "id": "Q190608",
+   "name": "Rui Costa",
+   "nat": "Portugal",
+   "pos": [
+    "MID"
+   ],
+   "born": 1972,
+   "career": [
+    1990,
+    2008
+   ]
+  },
+  "LCM": {
+   "id": "Q483145",
+   "name": "Luís Figo",
+   "nat": "Portugal",
+   "pos": [
+    "MID"
+   ],
+   "born": 1972,
+   "career": [
+    1989,
+    2009
+   ]
+  },
+  "RCB": {
+   "id": "Q192031",
+   "name": "Kakha Kaladze",
+   "nat": "Georgia",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1978,
+   "career": [
+    1993,
+    2012
+   ]
+  },
+  "RCM": {
+   "id": "Q251683",
+   "name": "Ángel Di María",
+   "nat": "Argentina",
+   "pos": [
+    "MID"
+   ],
+   "born": 1988,
+   "career": [
+    2005,
+    2026
+   ]
+  },
+  "ST": {
+   "id": "Q188696",
+   "name": "Christian Vieri",
+   "nat": "Italy",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1973,
+   "career": [
+    1989,
+    2009
+   ]
+  }
+ },
+ "solution": {
+  "RCB": {
+   "id": "Q192031",
+   "name": "Kakha Kaladze",
+   "nat": "Georgia",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1978,
+   "career": [
+    1993,
+    2012
+   ]
+  },
+  "GK": {
+   "id": "Q188544",
+   "name": "Dida",
+   "nat": "Brazil",
+   "pos": [
+    "GK"
+   ],
+   "born": 1973,
+   "career": [
+    1992,
+    2015
+   ]
+  },
+  "LCB": {
+   "id": "Q242193",
+   "name": "Dario Šimić",
+   "nat": "Croatia",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1975,
+   "career": [
+    1992,
+    2010
+   ]
+  },
+  "CM": {
+   "id": "Q190608",
+   "name": "Rui Costa",
+   "nat": "Portugal",
+   "pos": [
+    "MID"
+   ],
+   "born": 1972,
+   "career": [
+    1990,
+    2008
+   ]
+  },
+  "RB": {
+   "id": "Q210453",
+   "name": "Thiago Silva",
+   "nat": "Brazil",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1984,
+   "career": [
+    1998,
+    2026
+   ]
+  },
+  "RCM": {
+   "id": "Q251683",
+   "name": "Ángel Di María",
+   "nat": "Argentina",
+   "pos": [
+    "MID"
+   ],
+   "born": 1988,
+   "career": [
+    2005,
+    2026
+   ]
+  },
+  "LB": {
+   "id": "Q1839",
+   "name": "Laurent Blanc",
+   "nat": "France",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1965,
+   "career": [
+    1983,
+    2003
+   ]
+  },
+  "LCM": {
+   "id": "Q483145",
+   "name": "Luís Figo",
+   "nat": "Portugal",
+   "pos": [
+    "MID"
+   ],
+   "born": 1972,
+   "career": [
+    1989,
+    2009
+   ]
+  },
+  "LW": {
+   "id": "Q46502",
+   "name": "Juan Sebastián Verón",
+   "nat": "Argentina",
+   "pos": [
+    "MID"
+   ],
+   "born": 1975,
+   "career": [
+    1994,
+    2014
+   ]
+  },
+  "ST": {
+   "id": "Q188696",
+   "name": "Christian Vieri",
+   "nat": "Italy",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1973,
+   "career": [
+    1989,
+    2009
+   ]
+  },
+  "RW": {
+   "id": "Q531814",
+   "name": "Kaká",
+   "nat": "Brazil",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1982,
+   "career": [
+    2001,
+    2017
+   ]
+  }
+ },
+ "solution_links": [
+  {
+   "a": "GK",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "AC Milan",
+     "kind": "club",
+     "from": 2002,
+     "to": 2008
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "AC Milan",
+     "kind": "club",
+     "from": 2001,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "LB",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "Inter Milan",
+     "kind": "club",
+     "from": 1999,
+     "to": 2001
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "AC Milan",
+     "kind": "club",
+     "from": 2002,
+     "to": 2008
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RB",
+   "via": [
+    {
+     "team": "AC Milan",
+     "kind": "club",
+     "from": 2009,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "LB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "FC Barcelona",
+     "kind": "club",
+     "from": 1996,
+     "to": 1997
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "CM",
+   "via": [
+    {
+     "team": "AC Milan",
+     "kind": "club",
+     "from": 2002,
+     "to": 2006
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "CM",
+   "via": [
+    {
+     "team": "AC Milan",
+     "kind": "club",
+     "from": 2001,
+     "to": 2006
+    }
+   ]
+  },
+  {
+   "a": "RB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Paris Saint-Germain FC",
+     "kind": "club",
+     "from": 2015,
+     "to": 2020
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "CM",
+   "via": [
+    {
+     "team": "Portugal men's national football team",
+     "kind": "nat_senior",
+     "from": 1993,
+     "to": 2004
+    }
+   ]
+  },
+  {
+   "a": "CM",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "S.L. Benfica",
+     "kind": "club",
+     "from": 2007,
+     "to": 2008
+    }
+   ]
+  },
+  {
+   "a": "LB",
+   "b": "LW",
+   "via": [
+    {
+     "team": "Manchester United F.C.",
+     "kind": "club",
+     "from": 2001,
+     "to": 2003
+    }
+   ]
+  },
+  {
+   "a": "RB",
+   "b": "RW",
+   "via": [
+    {
+     "team": "Brazil men's national football team",
+     "kind": "nat_senior",
+     "from": 2008,
+     "to": 2016
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "LW",
+   "via": [
+    {
+     "team": "Inter Milan",
+     "kind": "club",
+     "from": 2005,
+     "to": 2006
+    }
+   ]
+  },
+  {
+   "a": "CM",
+   "b": "ST",
+   "via": [
+    {
+     "team": "AC Milan",
+     "kind": "club",
+     "from": 2005,
+     "to": 2006
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RW",
+   "via": [
+    {
+     "team": "Real Madrid Club de Fútbol",
+     "kind": "club",
+     "from": 2010,
+     "to": 2013
+    }
+   ]
+  },
+  {
+   "a": "LW",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Inter Milan",
+     "kind": "club",
+     "from": 2004,
+     "to": 2005
+    }
+   ]
+  },
+  {
+   "a": "ST",
+   "b": "RW",
+   "via": [
+    {
+     "team": "AC Milan",
+     "kind": "club",
+     "from": 2005,
+     "to": 2006
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "diversity": 10.5,
+  "generator": "v1",
+  "data_built": "2026-11-19"
+ }
+}

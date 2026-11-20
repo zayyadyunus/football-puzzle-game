@@ -1,0 +1,659 @@
+{
+ "date": "2026-12-05",
+ "difficulty": {
+  "label": "Hard",
+  "knowledge": 4000,
+  "solutions": {
+   "500": 0,
+   "1000": 0,
+   "2000": 0,
+   "4000": 34
+  }
+ },
+ "formation": {
+  "name": "4-2-3-1",
+  "slots": [
+   {
+    "id": "GK",
+    "label": "GK",
+    "x": 50,
+    "y": 6,
+    "accepts": [
+     "GK"
+    ]
+   },
+   {
+    "id": "LB",
+    "label": "LB",
+    "x": 12,
+    "y": 26,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LCB",
+    "label": "CB",
+    "x": 37,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RCB",
+    "label": "CB",
+    "x": 63,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RB",
+    "label": "RB",
+    "x": 88,
+    "y": 26,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LDM",
+    "label": "DM",
+    "x": 37,
+    "y": 44,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RDM",
+    "label": "DM",
+    "x": 63,
+    "y": 44,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "LAM",
+    "label": "LM",
+    "x": 15,
+    "y": 66,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   },
+   {
+    "id": "CAM",
+    "label": "AM",
+    "x": 50,
+    "y": 64,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   },
+   {
+    "id": "RAM",
+    "label": "RM",
+    "x": 85,
+    "y": 66,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   },
+   {
+    "id": "ST",
+    "label": "ST",
+    "x": 50,
+    "y": 86,
+    "accepts": [
+     "FWD"
+    ]
+   }
+  ],
+  "links": [
+   [
+    "GK",
+    "LCB"
+   ],
+   [
+    "GK",
+    "RCB"
+   ],
+   [
+    "LB",
+    "LCB"
+   ],
+   [
+    "LCB",
+    "RCB"
+   ],
+   [
+    "RCB",
+    "RB"
+   ],
+   [
+    "LCB",
+    "LDM"
+   ],
+   [
+    "RCB",
+    "RDM"
+   ],
+   [
+    "LDM",
+    "RDM"
+   ],
+   [
+    "LB",
+    "LAM"
+   ],
+   [
+    "RB",
+    "RAM"
+   ],
+   [
+    "LDM",
+    "LAM"
+   ],
+   [
+    "LDM",
+    "CAM"
+   ],
+   [
+    "RDM",
+    "CAM"
+   ],
+   [
+    "RDM",
+    "RAM"
+   ],
+   [
+    "LAM",
+    "CAM"
+   ],
+   [
+    "CAM",
+    "RAM"
+   ],
+   [
+    "LAM",
+    "ST"
+   ],
+   [
+    "CAM",
+    "ST"
+   ],
+   [
+    "RAM",
+    "ST"
+   ]
+  ]
+ },
+ "seeds": {
+  "GK": {
+   "id": "Q107985608",
+   "name": "James Trafford",
+   "nat": "United Kingdom",
+   "pos": [
+    "GK"
+   ],
+   "born": 2002,
+   "career": [
+    2020,
+    2026
+   ]
+  },
+  "LCB": {
+   "id": "Q73400656",
+   "name": "Joško Gvardiol",
+   "nat": "Croatia",
+   "pos": [
+    "DEF"
+   ],
+   "born": 2002,
+   "career": [
+    2019,
+    2026
+   ]
+  },
+  "RAM": {
+   "id": "Q114027518",
+   "name": "Ethan Nwaneri",
+   "nat": "United Kingdom",
+   "pos": [
+    "MID"
+   ],
+   "born": 2007,
+   "career": [
+    2022,
+    2026
+   ]
+  },
+  "RCB": {
+   "id": "Q59108",
+   "name": "Kyle Walker",
+   "nat": "England",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1990,
+   "career": [
+    2008,
+    2026
+   ]
+  },
+  "RDM": {
+   "id": "Q30007142",
+   "name": "Declan Rice",
+   "nat": "Republic of Ireland",
+   "pos": [
+    "MID"
+   ],
+   "born": 1999,
+   "career": [
+    2015,
+    2026
+   ]
+  },
+  "ST": {
+   "id": "Q18637429",
+   "name": "Serhou Guirassy",
+   "nat": "Guinea",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1996,
+   "career": [
+    2013,
+    2026
+   ]
+  }
+ },
+ "solution": {
+  "LAM": {
+   "id": "Q28137504",
+   "name": "Lovro Majer",
+   "nat": "Croatia",
+   "pos": [
+    "MID"
+   ],
+   "born": 1998,
+   "career": [
+    2012,
+    2026
+   ]
+  },
+  "LB": {
+   "id": "Q349125",
+   "name": "Dejan Lovren",
+   "nat": "Croatia",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1989,
+   "career": [
+    2006,
+    2026
+   ]
+  },
+  "ST": {
+   "id": "Q18637429",
+   "name": "Serhou Guirassy",
+   "nat": "Guinea",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1996,
+   "career": [
+    2013,
+    2026
+   ]
+  },
+  "CAM": {
+   "id": "Q28872567",
+   "name": "Nayef Aguerd",
+   "nat": "Morocco",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1996,
+   "career": [
+    2014,
+    2026
+   ]
+  },
+  "LDM": {
+   "id": "Q17501875",
+   "name": "Nikola Vlašić",
+   "nat": "Croatia",
+   "pos": [
+    "MID"
+   ],
+   "born": 1997,
+   "career": [
+    2014,
+    2026
+   ]
+  },
+  "LCB": {
+   "id": "Q73400656",
+   "name": "Joško Gvardiol",
+   "nat": "Croatia",
+   "pos": [
+    "DEF"
+   ],
+   "born": 2002,
+   "career": [
+    2019,
+    2026
+   ]
+  },
+  "RDM": {
+   "id": "Q30007142",
+   "name": "Declan Rice",
+   "nat": "Republic of Ireland",
+   "pos": [
+    "MID"
+   ],
+   "born": 1999,
+   "career": [
+    2015,
+    2026
+   ]
+  },
+  "RAM": {
+   "id": "Q114027518",
+   "name": "Ethan Nwaneri",
+   "nat": "United Kingdom",
+   "pos": [
+    "MID"
+   ],
+   "born": 2007,
+   "career": [
+    2022,
+    2026
+   ]
+  },
+  "RCB": {
+   "id": "Q59108",
+   "name": "Kyle Walker",
+   "nat": "England",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1990,
+   "career": [
+    2008,
+    2026
+   ]
+  },
+  "RB": {
+   "id": "Q19636859",
+   "name": "Oleksandr Zinchenko",
+   "nat": "Ukraine",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1996,
+   "career": [
+    2012,
+    2026
+   ]
+  },
+  "GK": {
+   "id": "Q107985608",
+   "name": "James Trafford",
+   "nat": "United Kingdom",
+   "pos": [
+    "GK"
+   ],
+   "born": 2002,
+   "career": [
+    2020,
+    2026
+   ]
+  }
+ },
+ "solution_links": [
+  {
+   "a": "GK",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2025,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2020,
+     "to": 2023
+    }
+   ]
+  },
+  {
+   "a": "LB",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "Croatia men's national football team",
+     "kind": "nat_senior",
+     "from": 2021,
+     "to": 2022
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2023,
+     "to": 2025
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RB",
+   "via": [
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2017,
+     "to": 2022
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LDM",
+   "via": [
+    {
+     "team": "Croatia men's national football team",
+     "kind": "nat_senior",
+     "from": 2021,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RDM",
+   "via": [
+    {
+     "team": "England men's national association football team",
+     "kind": "nat_senior",
+     "from": 2019,
+     "to": 2025
+    }
+   ]
+  },
+  {
+   "a": "LDM",
+   "b": "RDM",
+   "via": [
+    {
+     "team": "West Ham United F.C.",
+     "kind": "club",
+     "from": 2021,
+     "to": 2023
+    }
+   ]
+  },
+  {
+   "a": "LB",
+   "b": "LAM",
+   "via": [
+    {
+     "team": "Croatia men's national football team",
+     "kind": "nat_senior",
+     "from": 2017,
+     "to": 2022
+    }
+   ]
+  },
+  {
+   "a": "RB",
+   "b": "RAM",
+   "via": [
+    {
+     "team": "Arsenal F.C.",
+     "kind": "club",
+     "from": 2022,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LDM",
+   "b": "LAM",
+   "via": [
+    {
+     "team": "Croatia men's national football team",
+     "kind": "nat_senior",
+     "from": 2017,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LDM",
+   "b": "CAM",
+   "via": [
+    {
+     "team": "West Ham United F.C.",
+     "kind": "club",
+     "from": 2022,
+     "to": 2023
+    }
+   ]
+  },
+  {
+   "a": "RDM",
+   "b": "CAM",
+   "via": [
+    {
+     "team": "West Ham United F.C.",
+     "kind": "club",
+     "from": 2022,
+     "to": 2023
+    }
+   ]
+  },
+  {
+   "a": "RDM",
+   "b": "RAM",
+   "via": [
+    {
+     "team": "Arsenal F.C.",
+     "kind": "club",
+     "from": 2023,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LAM",
+   "b": "CAM",
+   "via": [
+    {
+     "team": "Stade Rennais F.C.",
+     "kind": "club",
+     "from": 2021,
+     "to": 2022
+    }
+   ]
+  },
+  {
+   "a": "CAM",
+   "b": "RAM",
+   "via": [
+    {
+     "team": "Olympique de Marseille",
+     "kind": "club",
+     "from": 2026,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LAM",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Stade Rennais F.C.",
+     "kind": "club",
+     "from": 2021,
+     "to": 2023
+    }
+   ]
+  },
+  {
+   "a": "CAM",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Stade Rennais F.C.",
+     "kind": "club",
+     "from": 2020,
+     "to": 2022
+    }
+   ]
+  },
+  {
+   "a": "RAM",
+   "b": "ST",
+   "via": [
+    {
+     "team": "Borussia Dortmund",
+     "kind": "club",
+     "from": 2026,
+     "to": 2026
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "diversity": 9.2,
+  "generator": "v1",
+  "data_built": "2026-11-19"
+ }
+}

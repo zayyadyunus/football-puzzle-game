@@ -1,0 +1,675 @@
+{
+ "date": "2026-11-28",
+ "difficulty": {
+  "label": "Hard",
+  "knowledge": 4000,
+  "solutions": {
+   "500": 0,
+   "1000": 0,
+   "2000": 0,
+   "4000": 296
+  }
+ },
+ "formation": {
+  "name": "3-5-2",
+  "slots": [
+   {
+    "id": "GK",
+    "label": "GK",
+    "x": 50,
+    "y": 6,
+    "accepts": [
+     "GK"
+    ]
+   },
+   {
+    "id": "LCB",
+    "label": "CB",
+    "x": 28,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "CB",
+    "label": "CB",
+    "x": 50,
+    "y": 20,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RCB",
+    "label": "CB",
+    "x": 72,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LWB",
+    "label": "LWB",
+    "x": 10,
+    "y": 48,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LCM",
+    "label": "CM",
+    "x": 32,
+    "y": 50,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "CM",
+    "label": "CM",
+    "x": 50,
+    "y": 44,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RCM",
+    "label": "CM",
+    "x": 68,
+    "y": 50,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RWB",
+    "label": "RWB",
+    "x": 90,
+    "y": 48,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LST",
+    "label": "ST",
+    "x": 37,
+    "y": 80,
+    "accepts": [
+     "FWD"
+    ]
+   },
+   {
+    "id": "RST",
+    "label": "ST",
+    "x": 63,
+    "y": 80,
+    "accepts": [
+     "FWD"
+    ]
+   }
+  ],
+  "links": [
+   [
+    "GK",
+    "LCB"
+   ],
+   [
+    "GK",
+    "CB"
+   ],
+   [
+    "GK",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "CB"
+   ],
+   [
+    "CB",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "LWB"
+   ],
+   [
+    "RCB",
+    "RWB"
+   ],
+   [
+    "LCB",
+    "LCM"
+   ],
+   [
+    "CB",
+    "CM"
+   ],
+   [
+    "RCB",
+    "RCM"
+   ],
+   [
+    "LWB",
+    "LCM"
+   ],
+   [
+    "LCM",
+    "CM"
+   ],
+   [
+    "CM",
+    "RCM"
+   ],
+   [
+    "RCM",
+    "RWB"
+   ],
+   [
+    "LWB",
+    "LST"
+   ],
+   [
+    "LCM",
+    "LST"
+   ],
+   [
+    "RCM",
+    "RST"
+   ],
+   [
+    "RWB",
+    "RST"
+   ],
+   [
+    "LST",
+    "RST"
+   ]
+  ]
+ },
+ "seeds": {
+  "CM": {
+   "id": "Q185225",
+   "name": "Santi Cazorla",
+   "nat": "Spain",
+   "pos": [
+    "MID"
+   ],
+   "born": 1984,
+   "career": [
+    2003,
+    2026
+   ]
+  },
+  "GK": {
+   "id": "Q2058682",
+   "name": "Jan Oblak",
+   "nat": "Slovenia",
+   "pos": [
+    "GK"
+   ],
+   "born": 1993,
+   "career": [
+    2009,
+    2026
+   ]
+  },
+  "LCB": {
+   "id": "Q151838",
+   "name": "Axel Witsel",
+   "nat": "Belgium",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1989,
+   "career": [
+    2006,
+    2026
+   ]
+  },
+  "LCM": {
+   "id": "Q47230",
+   "name": "Andrey Arshavin",
+   "nat": "Russia",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1981,
+   "career": [
+    1999,
+    2018
+   ]
+  },
+  "LWB": {
+   "id": "Q62786",
+   "name": "Hulk",
+   "nat": "Brazil",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1986,
+   "career": [
+    2004,
+    2026
+   ]
+  },
+  "RCB": {
+   "id": "Q484384",
+   "name": "Fábio Coentrão",
+   "nat": "Portugal",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1988,
+   "career": [
+    2005,
+    2021
+   ]
+  }
+ },
+ "solution": {
+  "LCM": {
+   "id": "Q47230",
+   "name": "Andrey Arshavin",
+   "nat": "Russia",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1981,
+   "career": [
+    1999,
+    2018
+   ]
+  },
+  "LST": {
+   "id": "Q713439",
+   "name": "Artem Dzyuba",
+   "nat": "Russia",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1988,
+   "career": [
+    2006,
+    2026
+   ]
+  },
+  "LWB": {
+   "id": "Q62786",
+   "name": "Hulk",
+   "nat": "Brazil",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1986,
+   "career": [
+    2004,
+    2026
+   ]
+  },
+  "LCB": {
+   "id": "Q151838",
+   "name": "Axel Witsel",
+   "nat": "Belgium",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1989,
+   "career": [
+    2006,
+    2026
+   ]
+  },
+  "RST": {
+   "id": "Q168029",
+   "name": "Roman Pavlyuchenko",
+   "nat": "Russia",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1981,
+   "career": [
+    1998,
+    2022
+   ]
+  },
+  "GK": {
+   "id": "Q2058682",
+   "name": "Jan Oblak",
+   "nat": "Slovenia",
+   "pos": [
+    "GK"
+   ],
+   "born": 1993,
+   "career": [
+    2009,
+    2026
+   ]
+  },
+  "CB": {
+   "id": "Q20719582",
+   "name": "Mario Hermoso Canseco",
+   "nat": "Spain",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1995,
+   "career": [
+    2002,
+    2026
+   ]
+  },
+  "CM": {
+   "id": "Q185225",
+   "name": "Santi Cazorla",
+   "nat": "Spain",
+   "pos": [
+    "MID"
+   ],
+   "born": 1984,
+   "career": [
+    2003,
+    2026
+   ]
+  },
+  "RCM": {
+   "id": "Q246417",
+   "name": "Denis Cheryshev",
+   "nat": "Russia",
+   "pos": [
+    "MID"
+   ],
+   "born": 1990,
+   "career": [
+    2012,
+    2026
+   ]
+  },
+  "RCB": {
+   "id": "Q484384",
+   "name": "Fábio Coentrão",
+   "nat": "Portugal",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1988,
+   "career": [
+    2005,
+    2021
+   ]
+  },
+  "RWB": {
+   "id": "Q483837",
+   "name": "Luka Modrić",
+   "nat": "Croatia",
+   "pos": [
+    "MID"
+   ],
+   "born": 1985,
+   "career": [
+    2003,
+    2026
+   ]
+  }
+ },
+ "solution_links": [
+  {
+   "a": "GK",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "S.L. Benfica",
+     "kind": "club",
+     "from": 2011,
+     "to": 2012
+    },
+    {
+     "team": "Atlético Madrid",
+     "kind": "club",
+     "from": 2022,
+     "to": 2025
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "CB",
+   "via": [
+    {
+     "team": "Atlético Madrid",
+     "kind": "club",
+     "from": 2019,
+     "to": 2024
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "S.L. Benfica",
+     "kind": "club",
+     "from": 2010,
+     "to": 2011
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "CB",
+   "via": [
+    {
+     "team": "Atlético Madrid",
+     "kind": "club",
+     "from": 2022,
+     "to": 2024
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "Real Madrid Club de Fútbol",
+     "kind": "club",
+     "from": 2011,
+     "to": 2014
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LWB",
+   "via": [
+    {
+     "team": "FC Zenit Saint Petersburg",
+     "kind": "club",
+     "from": 2012,
+     "to": 2016
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RWB",
+   "via": [
+    {
+     "team": "Real Madrid Club de Fútbol",
+     "kind": "club",
+     "from": 2012,
+     "to": 2018
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "FC Zenit Saint Petersburg",
+     "kind": "club",
+     "from": 2013,
+     "to": 2015
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "CM",
+   "via": [
+    {
+     "team": "Spain men's national football team",
+     "kind": "nat_senior",
+     "from": 2018,
+     "to": 2019
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Real Madrid Club de Fútbol",
+     "kind": "club",
+     "from": 2013,
+     "to": 2016
+    }
+   ]
+  },
+  {
+   "a": "LWB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "FC Zenit Saint Petersburg",
+     "kind": "club",
+     "from": 2013,
+     "to": 2015
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "CM",
+   "via": [
+    {
+     "team": "Arsenal F.C.",
+     "kind": "club",
+     "from": 2012,
+     "to": 2013
+    }
+   ]
+  },
+  {
+   "a": "CM",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Villarreal CF",
+     "kind": "club",
+     "from": 2018,
+     "to": 2019
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RWB",
+   "via": [
+    {
+     "team": "Real Madrid Club de Fútbol",
+     "kind": "club",
+     "from": 2013,
+     "to": 2016
+    }
+   ]
+  },
+  {
+   "a": "LWB",
+   "b": "LST",
+   "via": [
+    {
+     "team": "FC Zenit Saint Petersburg",
+     "kind": "club",
+     "from": 2015,
+     "to": 2016
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "LST",
+   "via": [
+    {
+     "team": "Russia men's national football team",
+     "kind": "nat_senior",
+     "from": 2011,
+     "to": 2012
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Russia men's national football team",
+     "kind": "nat_senior",
+     "from": 2012,
+     "to": 2013
+    }
+   ]
+  },
+  {
+   "a": "RWB",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Tottenham Hotspur F.C.",
+     "kind": "club",
+     "from": 2008,
+     "to": 2012
+    }
+   ]
+  },
+  {
+   "a": "LST",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Spartak Moscow",
+     "kind": "club",
+     "from": 2006,
+     "to": 2008
+    },
+    {
+     "team": "Russia men's national football team",
+     "kind": "nat_senior",
+     "from": 2011,
+     "to": 2013
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "diversity": 10.1,
+  "generator": "v1",
+  "data_built": "2026-11-19"
+ }
+}

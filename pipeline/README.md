@@ -46,3 +46,16 @@ The argument to `fetch.py` (default 5) is the minimum number of Wikipedia langua
 - Year-only dates are treated as mid-year (summer transfer window).
 - A missing club end date is inferred as the start of the player's next club spell. An open spell counts as ongoing if the player was born in 1984 or later.
 - Players need at least one dated senior club spell. This also drops non-footballers tagged as footballers (Camus, Connery…).
+
+## Puzzle generator
+```sh
+python3 generate.py 2026-11-23 14   # write puzzles/2026-11-23.json … for 14 days (~2s each)
+python3 generate.py experiment      # calibration: difficulty spread vs number of seeds
+```
+| file | role |
+|---|---|
+| `formations.py` | 4-4-2, 4-3-3, 4-2-3-1, 3-5-2, 3-4-3: slots (pitch coords, accepted position groups) and link lines |
+| `solver.py` | backtracking search: random valid XI, count completions from a top-N pool, era-adjusted fame |
+| `generate.py` | daily puzzles: varied reference XI → choose seeds to hit the day's difficulty |
+
+**Difficulty** is "knowledge needed": the smallest top-N pool (by era-adjusted fame) that contains at least 3 ways to complete the XI. Weekly schedule: Mon/Tue Easy (4 seeds, top 500/1,000), Wed–Fri Medium (5 seeds, top 1,000/2,000), Sat/Sun Hard (6 seeds, top 4,000). Generation is deterministic per date. Seeds don't repeat within 30 days, and the formation changes daily.

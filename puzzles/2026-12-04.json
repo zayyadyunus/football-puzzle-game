@@ -1,0 +1,655 @@
+{
+ "date": "2026-12-04",
+ "difficulty": {
+  "label": "Medium",
+  "knowledge": 2000,
+  "solutions": {
+   "500": 0,
+   "1000": 0,
+   "2000": 937,
+   "4000": 1000
+  }
+ },
+ "formation": {
+  "name": "3-5-2",
+  "slots": [
+   {
+    "id": "GK",
+    "label": "GK",
+    "x": 50,
+    "y": 6,
+    "accepts": [
+     "GK"
+    ]
+   },
+   {
+    "id": "LCB",
+    "label": "CB",
+    "x": 28,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "CB",
+    "label": "CB",
+    "x": 50,
+    "y": 20,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RCB",
+    "label": "CB",
+    "x": 72,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LWB",
+    "label": "LWB",
+    "x": 10,
+    "y": 48,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LCM",
+    "label": "CM",
+    "x": 32,
+    "y": 50,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "CM",
+    "label": "CM",
+    "x": 50,
+    "y": 44,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RCM",
+    "label": "CM",
+    "x": 68,
+    "y": 50,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RWB",
+    "label": "RWB",
+    "x": 90,
+    "y": 48,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LST",
+    "label": "ST",
+    "x": 37,
+    "y": 80,
+    "accepts": [
+     "FWD"
+    ]
+   },
+   {
+    "id": "RST",
+    "label": "ST",
+    "x": 63,
+    "y": 80,
+    "accepts": [
+     "FWD"
+    ]
+   }
+  ],
+  "links": [
+   [
+    "GK",
+    "LCB"
+   ],
+   [
+    "GK",
+    "CB"
+   ],
+   [
+    "GK",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "CB"
+   ],
+   [
+    "CB",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "LWB"
+   ],
+   [
+    "RCB",
+    "RWB"
+   ],
+   [
+    "LCB",
+    "LCM"
+   ],
+   [
+    "CB",
+    "CM"
+   ],
+   [
+    "RCB",
+    "RCM"
+   ],
+   [
+    "LWB",
+    "LCM"
+   ],
+   [
+    "LCM",
+    "CM"
+   ],
+   [
+    "CM",
+    "RCM"
+   ],
+   [
+    "RCM",
+    "RWB"
+   ],
+   [
+    "LWB",
+    "LST"
+   ],
+   [
+    "LCM",
+    "LST"
+   ],
+   [
+    "RCM",
+    "RST"
+   ],
+   [
+    "RWB",
+    "RST"
+   ],
+   [
+    "LST",
+    "RST"
+   ]
+  ]
+ },
+ "seeds": {
+  "CM": {
+   "id": "Q191885",
+   "name": "Thiago Motta",
+   "nat": "Brazil",
+   "pos": [
+    "MID"
+   ],
+   "born": 1982,
+   "career": [
+    2001,
+    2018
+   ]
+  },
+  "LCM": {
+   "id": "Q190929",
+   "name": "Maxi Rodriguez",
+   "nat": "Argentina",
+   "pos": [
+    "MID"
+   ],
+   "born": 1981,
+   "career": [
+    1999,
+    2021
+   ]
+  },
+  "LST": {
+   "id": "Q296965",
+   "name": "Ariel Ortega",
+   "nat": "Argentina",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1974,
+   "career": [
+    1991,
+    2012
+   ]
+  },
+  "RCB": {
+   "id": "Q429039",
+   "name": "Roberto Carlos",
+   "nat": "Brazil",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1973,
+   "career": [
+    1,
+    2016
+   ]
+  },
+  "RCM": {
+   "id": "Q39444",
+   "name": "Ronaldinho",
+   "nat": "Brazil",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1980,
+   "career": [
+    1998,
+    2015
+   ]
+  }
+ },
+ "solution": {
+  "LST": {
+   "id": "Q296965",
+   "name": "Ariel Ortega",
+   "nat": "Argentina",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1974,
+   "career": [
+    1991,
+    2012
+   ]
+  },
+  "RST": {
+   "id": "Q132056",
+   "name": "Sebastián Abreu",
+   "nat": "Uruguay",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1976,
+   "career": [
+    1995,
+    2021
+   ]
+  },
+  "RCM": {
+   "id": "Q39444",
+   "name": "Ronaldinho",
+   "nat": "Brazil",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1980,
+   "career": [
+    1998,
+    2015
+   ]
+  },
+  "RWB": {
+   "id": "Q47489",
+   "name": "Djalminha",
+   "nat": "Brazil",
+   "pos": [
+    "MID"
+   ],
+   "born": 1970,
+   "career": [
+    1989,
+    2004
+   ]
+  },
+  "RCB": {
+   "id": "Q429039",
+   "name": "Roberto Carlos",
+   "nat": "Brazil",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1973,
+   "career": [
+    1,
+    2016
+   ]
+  },
+  "GK": {
+   "id": "Q1249859",
+   "name": "Rogério Ceni",
+   "nat": "Brazil",
+   "pos": [
+    "GK"
+   ],
+   "born": 1973,
+   "career": [
+    1990,
+    2015
+   ]
+  },
+  "CB": {
+   "id": "Q237561",
+   "name": "Juliano Belletti",
+   "nat": "Brazil",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1976,
+   "career": [
+    1994,
+    2011
+   ]
+  },
+  "LCB": {
+   "id": "Q216910",
+   "name": "Fábio Aurélio",
+   "nat": "Brazil",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1979,
+   "career": [
+    1997,
+    2013
+   ]
+  },
+  "LCM": {
+   "id": "Q190929",
+   "name": "Maxi Rodriguez",
+   "nat": "Argentina",
+   "pos": [
+    "MID"
+   ],
+   "born": 1981,
+   "career": [
+    1999,
+    2021
+   ]
+  },
+  "CM": {
+   "id": "Q191885",
+   "name": "Thiago Motta",
+   "nat": "Brazil",
+   "pos": [
+    "MID"
+   ],
+   "born": 1982,
+   "career": [
+    2001,
+    2018
+   ]
+  },
+  "LWB": {
+   "id": "Q161571",
+   "name": "Javier Mascherano",
+   "nat": "Argentina",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1984,
+   "career": [
+    2003,
+    2020
+   ]
+  }
+ },
+ "solution_links": [
+  {
+   "a": "GK",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "São Paulo FC",
+     "kind": "club",
+     "from": 1997,
+     "to": 2000
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "CB",
+   "via": [
+    {
+     "team": "São Paulo FC",
+     "kind": "club",
+     "from": 1996,
+     "to": 2002
+    },
+    {
+     "team": "Brazil men's national football team",
+     "kind": "nat_senior",
+     "from": 2001,
+     "to": 2005
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "Brazil men's national football team",
+     "kind": "nat_senior",
+     "from": 1997,
+     "to": 2006
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "CB",
+   "via": [
+    {
+     "team": "São Paulo FC",
+     "kind": "club",
+     "from": 1997,
+     "to": 2000
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "Brazil men's national football team",
+     "kind": "nat_senior",
+     "from": 2001,
+     "to": 2005
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LWB",
+   "via": [
+    {
+     "team": "Liverpool F.C.",
+     "kind": "club",
+     "from": 2007,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RWB",
+   "via": [
+    {
+     "team": "Brazil men's national football team",
+     "kind": "nat_senior",
+     "from": 1996,
+     "to": 2002
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "Liverpool F.C.",
+     "kind": "club",
+     "from": 2010,
+     "to": 2012
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "CM",
+   "via": [
+    {
+     "team": "FC Barcelona",
+     "kind": "club",
+     "from": 2004,
+     "to": 2007
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Brazil men's national football team",
+     "kind": "nat_senior",
+     "from": 1999,
+     "to": 2006
+    }
+   ]
+  },
+  {
+   "a": "LWB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "Argentina national football team",
+     "kind": "nat_senior",
+     "from": 2003,
+     "to": 2014
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "CM",
+   "via": [
+    {
+     "team": "Atlético Madrid",
+     "kind": "club",
+     "from": 2007,
+     "to": 2008
+    }
+   ]
+  },
+  {
+   "a": "CM",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "FC Barcelona",
+     "kind": "club",
+     "from": 2003,
+     "to": 2007
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RWB",
+   "via": [
+    {
+     "team": "Brazil men's national football team",
+     "kind": "nat_senior",
+     "from": 1999,
+     "to": 2002
+    }
+   ]
+  },
+  {
+   "a": "LWB",
+   "b": "LST",
+   "via": [
+    {
+     "team": "Argentina national football team",
+     "kind": "nat_senior",
+     "from": 2003,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "LST",
+   "via": [
+    {
+     "team": "Argentina national football team",
+     "kind": "nat_senior",
+     "from": 2003,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Grêmio FBPA",
+     "kind": "club",
+     "from": 1998,
+     "to": 1999
+    }
+   ]
+  },
+  {
+   "a": "RWB",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Deportivo de A Coruña",
+     "kind": "club",
+     "from": 1998,
+     "to": 2004
+    }
+   ]
+  },
+  {
+   "a": "LST",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Club Atlético River Plate",
+     "kind": "club",
+     "from": 2008,
+     "to": 2009
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "diversity": 10.1,
+  "generator": "v1",
+  "data_built": "2026-11-19"
+ }
+}
