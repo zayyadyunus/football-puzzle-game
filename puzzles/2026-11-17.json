@@ -1,0 +1,641 @@
+{
+ "date": "2026-11-17",
+ "difficulty": {
+  "label": "Easy",
+  "knowledge": 1000,
+  "solutions": {
+   "500": 0,
+   "1000": 302,
+   "2000": 1000,
+   "4000": 1000
+  }
+ },
+ "formation": {
+  "name": "3-5-2",
+  "slots": [
+   {
+    "id": "GK",
+    "label": "GK",
+    "x": 50,
+    "y": 6,
+    "accepts": [
+     "GK"
+    ]
+   },
+   {
+    "id": "LCB",
+    "label": "CB",
+    "x": 28,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "CB",
+    "label": "CB",
+    "x": 50,
+    "y": 20,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RCB",
+    "label": "CB",
+    "x": 72,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LWB",
+    "label": "LWB",
+    "x": 10,
+    "y": 48,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LCM",
+    "label": "CM",
+    "x": 32,
+    "y": 50,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "CM",
+    "label": "CM",
+    "x": 50,
+    "y": 44,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RCM",
+    "label": "CM",
+    "x": 68,
+    "y": 50,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RWB",
+    "label": "RWB",
+    "x": 90,
+    "y": 48,
+    "accepts": [
+     "DEF",
+     "MID"
+    ]
+   },
+   {
+    "id": "LST",
+    "label": "ST",
+    "x": 37,
+    "y": 80,
+    "accepts": [
+     "FWD"
+    ]
+   },
+   {
+    "id": "RST",
+    "label": "ST",
+    "x": 63,
+    "y": 80,
+    "accepts": [
+     "FWD"
+    ]
+   }
+  ],
+  "links": [
+   [
+    "GK",
+    "LCB"
+   ],
+   [
+    "GK",
+    "CB"
+   ],
+   [
+    "GK",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "CB"
+   ],
+   [
+    "CB",
+    "RCB"
+   ],
+   [
+    "LCB",
+    "LWB"
+   ],
+   [
+    "RCB",
+    "RWB"
+   ],
+   [
+    "LCB",
+    "LCM"
+   ],
+   [
+    "CB",
+    "CM"
+   ],
+   [
+    "RCB",
+    "RCM"
+   ],
+   [
+    "LWB",
+    "LCM"
+   ],
+   [
+    "LCM",
+    "CM"
+   ],
+   [
+    "CM",
+    "RCM"
+   ],
+   [
+    "RCM",
+    "RWB"
+   ],
+   [
+    "LWB",
+    "LST"
+   ],
+   [
+    "LCM",
+    "LST"
+   ],
+   [
+    "RCM",
+    "RST"
+   ],
+   [
+    "RWB",
+    "RST"
+   ],
+   [
+    "LST",
+    "RST"
+   ]
+  ]
+ },
+ "seeds": {
+  "CB": {
+   "id": "Q191136",
+   "name": "James Milner",
+   "nat": "England",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1986,
+   "career": [
+    2002,
+    2026
+   ]
+  },
+  "GK": {
+   "id": "Q215812",
+   "name": "Shay Given",
+   "nat": "Republic of Ireland",
+   "pos": [
+    "GK"
+   ],
+   "born": 1976,
+   "career": [
+    1992,
+    2017
+   ]
+  },
+  "LST": {
+   "id": "Q44655",
+   "name": "Paolo Di Canio",
+   "nat": "Italy",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1968,
+   "career": [
+    1985,
+    2008
+   ]
+  },
+  "RCB": {
+   "id": "Q185208",
+   "name": "Glen Johnson",
+   "nat": "England",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1984,
+   "career": [
+    2002,
+    2018
+   ]
+  }
+ },
+ "solution": {
+  "RST": {
+   "id": "Q312659",
+   "name": "Pierre van Hooijdonk",
+   "nat": "Netherlands",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1969,
+   "career": [
+    1989,
+    2007
+   ]
+  },
+  "LST": {
+   "id": "Q44655",
+   "name": "Paolo Di Canio",
+   "nat": "Italy",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1968,
+   "career": [
+    1985,
+    2008
+   ]
+  },
+  "LCM": {
+   "id": "Q217389",
+   "name": "Valon Behrami",
+   "nat": "Switzerland",
+   "pos": [
+    "MID"
+   ],
+   "born": 1985,
+   "career": [
+    2002,
+    2022
+   ]
+  },
+  "LWB": {
+   "id": "Q213989",
+   "name": "Scott Parker",
+   "nat": "England",
+   "pos": [
+    "MID"
+   ],
+   "born": 1980,
+   "career": [
+    1997,
+    2017
+   ]
+  },
+  "LCB": {
+   "id": "Q158980",
+   "name": "James Collins",
+   "nat": "Wales",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1983,
+   "career": [
+    2000,
+    2019
+   ]
+  },
+  "GK": {
+   "id": "Q215812",
+   "name": "Shay Given",
+   "nat": "Republic of Ireland",
+   "pos": [
+    "GK"
+   ],
+   "born": 1976,
+   "career": [
+    1992,
+    2017
+   ]
+  },
+  "CB": {
+   "id": "Q191136",
+   "name": "James Milner",
+   "nat": "England",
+   "pos": [
+    "DEF",
+    "MID"
+   ],
+   "born": 1986,
+   "career": [
+    2002,
+    2026
+   ]
+  },
+  "CM": {
+   "id": "Q252190",
+   "name": "Xherdan Shaqiri",
+   "nat": "Switzerland",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1991,
+   "career": [
+    2007,
+    2026
+   ]
+  },
+  "RCM": {
+   "id": "Q43913",
+   "name": "Arjen Robben",
+   "nat": "Netherlands",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1984,
+   "career": [
+    1989,
+    2021
+   ]
+  },
+  "RCB": {
+   "id": "Q185208",
+   "name": "Glen Johnson",
+   "nat": "England",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1984,
+   "career": [
+    2002,
+    2018
+   ]
+  },
+  "RWB": {
+   "id": "Q354629",
+   "name": "Mario Melchiot",
+   "nat": "Netherlands",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1976,
+   "career": [
+    1996,
+    2011
+   ]
+  }
+ },
+ "solution_links": [
+  {
+   "a": "GK",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "Aston Villa F.C.",
+     "kind": "club",
+     "from": 2011,
+     "to": 2012
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "CB",
+   "via": [
+    {
+     "team": "Newcastle United F.C.",
+     "kind": "club",
+     "from": 2004,
+     "to": 2008
+    },
+    {
+     "team": "Manchester City F.C.",
+     "kind": "club",
+     "from": 2010,
+     "to": 2011
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "Stoke City F.C.",
+     "kind": "club",
+     "from": 2015,
+     "to": 2017
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "CB",
+   "via": [
+    {
+     "team": "Aston Villa F.C.",
+     "kind": "club",
+     "from": 2009,
+     "to": 2010
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "England men's national association football team",
+     "kind": "nat_senior",
+     "from": 2009,
+     "to": 2014
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LWB",
+   "via": [
+    {
+     "team": "West Ham United F.C.",
+     "kind": "club",
+     "from": 2007,
+     "to": 2009
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RWB",
+   "via": [
+    {
+     "team": "Chelsea F.C.",
+     "kind": "club",
+     "from": 2003,
+     "to": 2004
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "West Ham United F.C.",
+     "kind": "club",
+     "from": 2008,
+     "to": 2009
+    }
+   ]
+  },
+  {
+   "a": "CB",
+   "b": "CM",
+   "via": [
+    {
+     "team": "Liverpool F.C.",
+     "kind": "club",
+     "from": 2018,
+     "to": 2021
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Chelsea F.C.",
+     "kind": "club",
+     "from": 2004,
+     "to": 2007
+    }
+   ]
+  },
+  {
+   "a": "LWB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "West Ham United F.C.",
+     "kind": "club",
+     "from": 2008,
+     "to": 2011
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "CM",
+   "via": [
+    {
+     "team": "Switzerland men's national football team",
+     "kind": "nat_senior",
+     "from": 2010,
+     "to": 2018
+    }
+   ]
+  },
+  {
+   "a": "CM",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "FC Bayern Munich",
+     "kind": "club",
+     "from": 2012,
+     "to": 2015
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RWB",
+   "via": [
+    {
+     "team": "Netherlands national association football team",
+     "kind": "nat_senior",
+     "from": 2003,
+     "to": 2008
+    }
+   ]
+  },
+  {
+   "a": "LWB",
+   "b": "LST",
+   "via": [
+    {
+     "team": "Charlton Athletic F.C.",
+     "kind": "club",
+     "from": 2003,
+     "to": 2004
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "LST",
+   "via": [
+    {
+     "team": "SS Lazio",
+     "kind": "club",
+     "from": 2005,
+     "to": 2006
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Netherlands national association football team",
+     "kind": "nat_senior",
+     "from": 2003,
+     "to": 2004
+    }
+   ]
+  },
+  {
+   "a": "RWB",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Netherlands national association football team",
+     "kind": "nat_senior",
+     "from": 2000,
+     "to": 2004
+    }
+   ]
+  },
+  {
+   "a": "LST",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Celtic F.C.",
+     "kind": "club",
+     "from": 1996,
+     "to": 1997
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "diversity": 14.7,
+  "generator": "v1",
+  "data_built": "2026-11-19"
+ }
+}

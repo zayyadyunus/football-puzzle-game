@@ -59,3 +59,11 @@ python3 generate.py experiment      # calibration: difficulty spread vs number o
 | `generate.py` | daily puzzles: varied reference XI → choose seeds to hit the day's difficulty |
 
 **Difficulty** is "knowledge needed": the smallest top-N pool (by era-adjusted fame) that contains at least 3 ways to complete the XI. Weekly schedule: Mon/Tue Easy (4 seeds, top 500/1,000), Wed–Fri Medium (5 seeds, top 1,000/2,000), Sat/Sun Hard (6 seeds, top 4,000). Generation is deterministic per date. Seeds don't repeat within 30 days, and the formation changes daily.
+
+## Web export
+```sh
+python3 export_web.py   # graph + puzzles → web/public/data (static JSON, ~41 MB, committed so Vercel can build)
+```
+- `search/<xxx>.json`: players by 3-letter name-word prefix, fame-sorted (the app fetches one file per query)
+- `p/<n>.json`: career spells sharded by QID % 512 (fetched when a player is placed)
+- `puzzles/`: copies of `puzzles/*.json` plus `index.json`

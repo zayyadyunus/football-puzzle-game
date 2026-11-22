@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #fafaf7;
+  --surface: #ffffff;
+  --ink: #121212;
+  --muted: #6b6b66;
+  --line: #e4e3dd;
+  --accent: #121212; /* primary buttons: NYT-style solid black */
+  --accent-ink: #ffffff;
+
+  --pitch: #3f9b5c;
+  --pitch-stripe: #3a9156;
+  --pitch-line: rgb(255 255 255 / 0.55);
+
+  --link-valid: #d4f53c;
+  --link-invalid: #ff5a5f;
+  --link-pending: rgb(255 255 255 / 0.45);
+
+  --seed-shirt: #1b1d21;
+  --user-shirt: #ffffff;
+  --good: #1f8a4c;
+  --bad: #d83a3f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121212;
+    --surface: #1c1c1c;
+    --ink: #f2f2ef;
+    --muted: #a3a39d;
+    --line: #2e2e2c;
+    --accent: #f2f2ef;
+    --accent-ink: #121212;
+    --pitch: #2f7a47;
+    --pitch-stripe: #2b7142;
+    --seed-shirt: #0d0e10;
+    --good: #4ccf83;
+    --bad: #ff7378;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #121212;
+  --surface: #1c1c1c;
+  --ink: #f2f2ef;
+  --muted: #a3a39d;
+  --line: #2e2e2c;
+  --accent: #f2f2ef;
+  --accent-ink: #121212;
+  --pitch: #2f7a47;
+  --pitch-stripe: #2b7142;
+  --seed-shirt: #0d0e10;
+  --good: #4ccf83;
+  --bad: #ff7378;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-good: var(--good);
+  --color-bad: var(--bad);
+  --font-sans: var(--font-franklin), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), ui-serif, Georgia, serif;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pitch {
+  background-color: var(--pitch);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    var(--pitch) 0,
+    var(--pitch) 10%,
+    var(--pitch-stripe) 10%,
+    var(--pitch-stripe) 20%
+  );
+}
+
+@keyframes sheet-in {
+  from { transform: translateY(16px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes pop {
+  0% { transform: scale(0.85); }
+  60% { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+.anim-sheet { animation: sheet-in 180ms ease-out; }
+.anim-fade { animation: fade-in 150ms ease-out; }
+.anim-pop { animation: pop 260ms ease-out; }
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-sheet, .anim-fade, .anim-pop { animation: none; }
+}

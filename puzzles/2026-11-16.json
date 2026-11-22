@@ -1,0 +1,603 @@
+{
+ "date": "2026-11-16",
+ "difficulty": {
+  "label": "Easy",
+  "knowledge": 500,
+  "solutions": {
+   "500": 812,
+   "1000": 1000,
+   "2000": 1000,
+   "4000": 1000
+  }
+ },
+ "formation": {
+  "name": "4-4-2",
+  "slots": [
+   {
+    "id": "GK",
+    "label": "GK",
+    "x": 50,
+    "y": 6,
+    "accepts": [
+     "GK"
+    ]
+   },
+   {
+    "id": "LB",
+    "label": "LB",
+    "x": 12,
+    "y": 26,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LCB",
+    "label": "CB",
+    "x": 37,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RCB",
+    "label": "CB",
+    "x": 63,
+    "y": 22,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "RB",
+    "label": "RB",
+    "x": 88,
+    "y": 26,
+    "accepts": [
+     "DEF"
+    ]
+   },
+   {
+    "id": "LM",
+    "label": "LM",
+    "x": 12,
+    "y": 54,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   },
+   {
+    "id": "LCM",
+    "label": "CM",
+    "x": 37,
+    "y": 50,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RCM",
+    "label": "CM",
+    "x": 63,
+    "y": 50,
+    "accepts": [
+     "MID"
+    ]
+   },
+   {
+    "id": "RM",
+    "label": "RM",
+    "x": 88,
+    "y": 54,
+    "accepts": [
+     "MID",
+     "FWD"
+    ]
+   },
+   {
+    "id": "LST",
+    "label": "ST",
+    "x": 37,
+    "y": 80,
+    "accepts": [
+     "FWD"
+    ]
+   },
+   {
+    "id": "RST",
+    "label": "ST",
+    "x": 63,
+    "y": 80,
+    "accepts": [
+     "FWD"
+    ]
+   }
+  ],
+  "links": [
+   [
+    "GK",
+    "LCB"
+   ],
+   [
+    "GK",
+    "RCB"
+   ],
+   [
+    "LB",
+    "LCB"
+   ],
+   [
+    "LCB",
+    "RCB"
+   ],
+   [
+    "RCB",
+    "RB"
+   ],
+   [
+    "LB",
+    "LM"
+   ],
+   [
+    "LCB",
+    "LCM"
+   ],
+   [
+    "RCB",
+    "RCM"
+   ],
+   [
+    "RB",
+    "RM"
+   ],
+   [
+    "LM",
+    "LCM"
+   ],
+   [
+    "LCM",
+    "RCM"
+   ],
+   [
+    "RCM",
+    "RM"
+   ],
+   [
+    "LM",
+    "LST"
+   ],
+   [
+    "LCM",
+    "LST"
+   ],
+   [
+    "RCM",
+    "RST"
+   ],
+   [
+    "RM",
+    "RST"
+   ],
+   [
+    "LST",
+    "RST"
+   ]
+  ]
+ },
+ "seeds": {
+  "GK": {
+   "id": "Q667596",
+   "name": "Yann Sommer",
+   "nat": "Switzerland",
+   "pos": [
+    "GK"
+   ],
+   "born": 1988,
+   "career": [
+    2005,
+    2026
+   ]
+  },
+  "RCB": {
+   "id": "Q195953",
+   "name": "Stefan de Vrij",
+   "nat": "Netherlands",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1992,
+   "career": [
+    2009,
+    2026
+   ]
+  },
+  "RCM": {
+   "id": "Q30036972",
+   "name": "Pedro Neto",
+   "nat": "Portugal",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 2000,
+   "career": [
+    2017,
+    2026
+   ]
+  },
+  "RST": {
+   "id": "Q30055335",
+   "name": "Rafael Leão",
+   "nat": "Portugal",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1999,
+   "career": [
+    2017,
+    2026
+   ]
+  }
+ },
+ "solution": {
+  "RCB": {
+   "id": "Q195953",
+   "name": "Stefan de Vrij",
+   "nat": "Netherlands",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1992,
+   "career": [
+    2009,
+    2026
+   ]
+  },
+  "GK": {
+   "id": "Q667596",
+   "name": "Yann Sommer",
+   "nat": "Switzerland",
+   "pos": [
+    "GK"
+   ],
+   "born": 1988,
+   "career": [
+    2005,
+    2026
+   ]
+  },
+  "LCB": {
+   "id": "Q509374",
+   "name": "Juan Cuadrado",
+   "nat": "Colombia",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1988,
+   "career": [
+    2008,
+    2026
+   ]
+  },
+  "RB": {
+   "id": "Q19599124",
+   "name": "Benjamin Pavard",
+   "nat": "France",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1996,
+   "career": [
+    2015,
+    2026
+   ]
+  },
+  "LB": {
+   "id": "Q152897",
+   "name": "Benedikt Höwedes",
+   "nat": "Germany",
+   "pos": [
+    "DEF"
+   ],
+   "born": 1988,
+   "career": [
+    2007,
+    2020
+   ]
+  },
+  "LM": {
+   "id": "Q161089",
+   "name": "İlkay Gündoğan",
+   "nat": "Germany",
+   "pos": [
+    "MID"
+   ],
+   "born": 1990,
+   "career": [
+    2009,
+    2026
+   ]
+  },
+  "LCM": {
+   "id": "Q13780454",
+   "name": "Mario Lemina",
+   "nat": "Gabon",
+   "pos": [
+    "MID"
+   ],
+   "born": 1993,
+   "career": [
+    2012,
+    2026
+   ]
+  },
+  "RCM": {
+   "id": "Q30036972",
+   "name": "Pedro Neto",
+   "nat": "Portugal",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 2000,
+   "career": [
+    2017,
+    2026
+   ]
+  },
+  "RM": {
+   "id": "Q21693199",
+   "name": "Christopher Nkunku",
+   "nat": "France",
+   "pos": [
+    "MID"
+   ],
+   "born": 1997,
+   "career": [
+    2015,
+    2026
+   ]
+  },
+  "LST": {
+   "id": "Q18217954",
+   "name": "Roland Sallai",
+   "nat": "Hungary",
+   "pos": [
+    "FWD"
+   ],
+   "born": 1997,
+   "career": [
+    2016,
+    2026
+   ]
+  },
+  "RST": {
+   "id": "Q30055335",
+   "name": "Rafael Leão",
+   "nat": "Portugal",
+   "pos": [
+    "FWD",
+    "MID"
+   ],
+   "born": 1999,
+   "career": [
+    2017,
+    2026
+   ]
+  }
+ },
+ "solution_links": [
+  {
+   "a": "GK",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "Inter Milan",
+     "kind": "club",
+     "from": 2023,
+     "to": 2024
+    }
+   ]
+  },
+  {
+   "a": "GK",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "Inter Milan",
+     "kind": "club",
+     "from": 2023,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LB",
+   "b": "LCB",
+   "via": [
+    {
+     "team": "Juventus FC",
+     "kind": "club",
+     "from": 2017,
+     "to": 2018
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "RCB",
+   "via": [
+    {
+     "team": "Inter Milan",
+     "kind": "club",
+     "from": 2023,
+     "to": 2024
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RB",
+   "via": [
+    {
+     "team": "Inter Milan",
+     "kind": "club",
+     "from": 2023,
+     "to": 2025
+    }
+   ]
+  },
+  {
+   "a": "LB",
+   "b": "LM",
+   "via": [
+    {
+     "team": "Germany men's national association football team",
+     "kind": "nat_senior",
+     "from": 2011,
+     "to": 2017
+    }
+   ]
+  },
+  {
+   "a": "LCB",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "Juventus FC",
+     "kind": "club",
+     "from": 2015,
+     "to": 2017
+    }
+   ]
+  },
+  {
+   "a": "RCB",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "SS Lazio",
+     "kind": "club",
+     "from": 2017,
+     "to": 2018
+    }
+   ]
+  },
+  {
+   "a": "RB",
+   "b": "RM",
+   "via": [
+    {
+     "team": "France men's national association football team",
+     "kind": "nat_senior",
+     "from": 2022,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LM",
+   "b": "LCM",
+   "via": [
+    {
+     "team": "Galatasaray S.K.",
+     "kind": "club",
+     "from": 2025,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "RCM",
+   "via": [
+    {
+     "team": "Wolverhampton Wanderers F.C.",
+     "kind": "club",
+     "from": 2023,
+     "to": 2024
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RM",
+   "via": [
+    {
+     "team": "Chelsea F.C.",
+     "kind": "club",
+     "from": 2024,
+     "to": 2025
+    }
+   ]
+  },
+  {
+   "a": "LM",
+   "b": "LST",
+   "via": [
+    {
+     "team": "Galatasaray S.K.",
+     "kind": "club",
+     "from": 2025,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LCM",
+   "b": "LST",
+   "via": [
+    {
+     "team": "Galatasaray S.K.",
+     "kind": "club",
+     "from": 2025,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "RCM",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Portugal men's national football team",
+     "kind": "nat_senior",
+     "from": 2021,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "RM",
+   "b": "RST",
+   "via": [
+    {
+     "team": "AC Milan",
+     "kind": "club",
+     "from": 2025,
+     "to": 2026
+    }
+   ]
+  },
+  {
+   "a": "LST",
+   "b": "RST",
+   "via": [
+    {
+     "team": "Galatasaray S.K.",
+     "kind": "club",
+     "from": 2026,
+     "to": 2026
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "diversity": 11.1,
+  "generator": "v1",
+  "data_built": "2026-11-19"
+ }
+}
